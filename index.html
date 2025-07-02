@@ -1,0 +1,22 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>利用規約読み飛ばしRTA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>利用規約読み飛ばしRTA</h1>
+    <p>あなたは何秒で利用規約に同意できるか？</p>
+    <button id="startButton">スタート</button>
+  </div>
+
+  <script>
+    document.getElementById("startButton").addEventListener("click", function() {
+      window.location.href = "rta.html";
+    });
+  </script>
+</body>
+</html>
