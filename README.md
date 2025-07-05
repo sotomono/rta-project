@@ -7,7 +7,7 @@
 
 ## 使い方
 
-- index.html をブラウザで開いてください。（GitHub Pagesで公開しています。リンク：）
+- index.html をブラウザで開いてください。（GitHub Pagesで公開しています。[ここをクリックして飛べます。](https://sotomono.github.io/rta-project/)）
 
 - 推奨環境について：私はPCはmac bookを使っていて、ブラウザはGoogle Cromeで開きました。他のデバイスやブラウザは試していません。もしかしたらうまく表示されないかもしれません。
 
