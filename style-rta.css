@@ -1,0 +1,94 @@
+/* style-rta.css */
+body {
+  font-family: sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+#timer {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+#warning {
+  color: #b00020;
+  background-color: #ffeaea;
+  border: 1px solid #ffaaaa;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  max-width: 800px;
+  text-align: center;
+  display: none;
+}
+
+.result-time {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.result-rank {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.result-comment {
+  font-size: 1rem;
+  font-style: italic;
+  color: #555;
+  opacity: 0.9;
+}
+
+.result-why      { background: #000; color: #fff; font-weight: bold; }
+.result-ss       { background: #ffe0e0; color: #c00000; }
+.result-s        { background: #ffeedd; color: #aa3300; }
+.result-a+       { background: #fff5cc; color: #996600; }
+.result-a-       { background: #f0ffd9; color: #668800; }
+.result-b+       { background: #e0ffe0; color: #339933; }
+.result-b-       { background: #d9f0ff; color: #006699; }
+.result-c+       { background: #e8e8ff; color: #444488; }
+.result-c-       { background: #eeeeee; color: #444; }
+.result-d        { background: #ffffff; color: #222; font-style: italic; }
+.result-1        { background: #111111; color: #39ff14; font-family: monospace; }
+
+
+@keyframes pop {
+  0% { transform: scale(0.9); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+button:hover {
+  background-color: #0056b3;
+}

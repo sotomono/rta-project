@@ -1,22 +1,32 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>利用規約読み飛ばしRTA</title>
-  <link rel="stylesheet" href="style.css">
+  <title>利用規約RTA</title>
+  <link rel="stylesheet" href="style-index.css">
 </head>
+
 <body>
-  <div class="container">
+  <main class="container">
+  <div class="content-box">
     <h1>利用規約読み飛ばしRTA</h1>
     <p>あなたは何秒で利用規約に同意できるか？</p>
-    <button id="startButton">スタート</button>
+    <button id="startButton">スタート</button> 
   </div>
+</main>
+
+  <footer>
+    <p>・このWebページの利用規約文章やコードはChatGPT（OpenAI）により生成された内容をもとに制作しました。</p>
+    <p>・本サイトはフィクションです。利用規約本文中にあるサービス提供や法的効力は実際は無いと考えてさい。</p>
+    <p>・Webページ制作初心者ながらがんばって作ったので、ぜひたくさん遊んでください。</p>
+    <p>© sotomono（2025）</p>
+  </footer>
 
   <script>
-    document.getElementById("startButton").addEventListener("click", function() {
+    document.getElementById("startButton").addEventListener("click", function () {
       window.location.href = "rta.html";
     });
   </script>
 </body>
 </html>
+
