@@ -35,7 +35,7 @@
 
 ## 作者情報
 
-つくったひと：sotomono（18 years old）
+作者：sotomono（18歳）
 
 HTMLもCSSもJavaScriptもGitHubも全くの初心者です。
 Webサイトの作り方は全く分かりませんでしたが、ChatGPTに訊いてがんばって作りました。
